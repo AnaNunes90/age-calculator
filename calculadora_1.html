@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+</head>
+    <body>
+        
+        <h1 class="titulo-pagina-calculadora">Calculadora de idade: anos, meses e dias com precisão!.</h1>
+            <p class="texto-pagina-calculadora">Aqui, você poderá calcular <strong class="texto-pagina-calculadora-destaque">sua idade em meses, anos e dias</strong>, 
+                de acordo com as informações postas. Vamos começar!</p>
+                
+                <form class="formulario-calculadora-idade" action="" method="post"> <!--GET: aparecem dados na URL; POST: não aparecem os dados enviados ao servidor na URL/é separado do endereço http do navegador-->
+
+                    <div class="ano-de-nascimento">
+                        <label for="calculadora-ano">Digite seu ano de nascimento:</label> <!--FOR vincula a label à um campo do formulário, referente ao ID do input-->
+                        <input id="calculadora-ano" type="number"/>
+                    </div>
+                    <div class="mes-de-nascimento">
+                        <label for="calculadora-mes">Digite seu mês de nascimento aqui:</label>
+                        <input id="calculadora-mes" type="number">
+                    </div>
+                    <div class="dia-de-nascimento">
+                        <label for="calculadora-dia">Digite aqui seu dia de nascimento:</label>
+                        <input id="calculadora-dia" type="number">
+                    </div>
+
+                        <div>
+                            <button type="submit" class="botao-calculadora">Calcular</button>
+                        </div>
+
+                </form>
+                    </body>
+        
+        <footer></footer>
+</html>
